@@ -1,0 +1,54 @@
+
+.bg-d {
+    background: linear-gradient(45deg, #030261 0%, rgba(16, 48, 155, 0.5) 100%);
+    background-size: 300% 300%;  
+    height: 100%;
+    width: 100%;
+    animation: background 4s ease infinite;
+  }
+  
+@keyframes background { 
+    0% {
+      background-position: 0% 50%;
+    }
+    
+    50% {
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+#btn-aside{
+    display: none;
+}
+
+#btn-aside:target{
+  display: block;
+}
+
+.siu{
+  background-image: url(../img/bg-cr7.jpg);
+  background-size: 100%;
+  background-repeat: none;
+}
+
+.youtube{
+  background-image: url(../img/bg-yt.avif);
+  background-size: 80vh;
+  background-repeat: repeat;
+}
+
+.amazon{
+  background-image: url(../img/bg-amazon.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.google{
+  background-image: url(../img/bg-google.jpg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
